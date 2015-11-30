@@ -14,6 +14,7 @@
 		D86D03FB1BE976CF007C0042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86D03F91BE976CF007C0042 /* LaunchScreen.storyboard */; };
 		D86D04061BE976CF007C0042 /* MagicEightBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D04051BE976CF007C0042 /* MagicEightBallTests.swift */; };
 		D86D04111BE976CF007C0042 /* MagicEightBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D04101BE976CF007C0042 /* MagicEightBallUITests.swift */; };
+		D86D04211BE98497007C0042 /* EightBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D04201BE98497007C0042 /* EightBall.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D86D040C1BE976CF007C0042 /* MagicEightBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicEightBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86D04101BE976CF007C0042 /* MagicEightBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicEightBallUITests.swift; sourceTree = "<group>"; };
 		D86D04121BE976CF007C0042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86D04201BE98497007C0042 /* EightBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EightBall.swift; path = ../EightBall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D86D03F01BE976CF007C0042 /* AppDelegate.swift */,
 				D86D03F21BE976CF007C0042 /* ViewController.swift */,
+				D86D04201BE98497007C0042 /* EightBall.swift */,
 				D86D03F41BE976CF007C0042 /* Main.storyboard */,
 				D86D03F71BE976CF007C0042 /* Assets.xcassets */,
 				D86D03F91BE976CF007C0042 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86D04211BE98497007C0042 /* EightBall.swift in Sources */,
 				D86D03F31BE976CF007C0042 /* ViewController.swift in Sources */,
 				D86D03F11BE976CF007C0042 /* AppDelegate.swift in Sources */,
 			);

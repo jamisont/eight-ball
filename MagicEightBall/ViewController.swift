@@ -9,17 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var label: UILabel!
+    
+    @IBAction func pressedAsk(sender: UIButton) {
+        var eightBall = MagicEightBall()
+        eightBall.shakeBall()
+        self.imageView.image = eightBall.getImage()
+        self.label.text = eightBall.getMessage()
     }
-
-
 }
+
+
+
 
